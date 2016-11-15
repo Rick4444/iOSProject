@@ -1,0 +1,1009 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7155CB19039A3304D6B99310 /* libPods-WellMax.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43631E95237AA156F026CE4B /* libPods-WellMax.a */; };
+		EE0ED8BD1BCE2707000AEC90 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0ED8BC1BCE2707000AEC90 /* CoreLocation.framework */; };
+		EE0ED8C11BCE2D6E000AEC90 /* MyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0ED8C01BCE2D6E000AEC90 /* MyAnnotation.m */; };
+		EE0ED8C51BCE4757000AEC90 /* FSVenue.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0ED8C41BCE4757000AEC90 /* FSVenue.m */; };
+		EE0ED8C81BCE5133000AEC90 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0ED8C61BCE5133000AEC90 /* AddressBook.framework */; };
+		EE0ED8C91BCE5133000AEC90 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0ED8C71BCE5133000AEC90 /* AddressBookUI.framework */; };
+		EE144CC31BC7D9EE009B1E0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE144CC21BC7D9EE009B1E0C /* main.m */; };
+		EE144CDD1BC7D9EE009B1E0C /* WellMaxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE144CDC1BC7D9EE009B1E0C /* WellMaxTests.m */; };
+		EE144CEB1BC7DBE9009B1E0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE144CEA1BC7DBE9009B1E0C /* AppDelegate.m */; };
+		EE144CF11BC7DCB2009B1E0C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE144CF01BC7DCB2009B1E0C /* Images.xcassets */; };
+		EE144CF51BC7DD4C009B1E0C /* ObjectClass.m in Sources */ = {isa = PBXBuildFile; fileRef = EE144CF41BC7DD4C009B1E0C /* ObjectClass.m */; };
+		EE144CFB1BC7DD5E009B1E0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE144CF61BC7DD5E009B1E0C /* Main.storyboard */; };
+		EE144CFC1BC7DD5E009B1E0C /* Main_i5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE144CF71BC7DD5E009B1E0C /* Main_i5.storyboard */; };
+		EE144CFD1BC7DD5E009B1E0C /* Main_i6.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE144CF81BC7DD5E009B1E0C /* Main_i6.storyboard */; };
+		EE144CFE1BC7DD5E009B1E0C /* Main_i6P.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE144CF91BC7DD5E009B1E0C /* Main_i6P.storyboard */; };
+		EE144CFF1BC7DD5E009B1E0C /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE144CFA1BC7DD5E009B1E0C /* Main_iPad.storyboard */; };
+		EE144D2F1BC7E67B009B1E0C /* Database.m in Sources */ = {isa = PBXBuildFile; fileRef = EE144D2C1BC7E67B009B1E0C /* Database.m */; };
+		EE144D301BC7E67B009B1E0C /* DBOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = EE144D2E1BC7E67B009B1E0C /* DBOperations.m */; };
+		EE144D331BC7E683009B1E0C /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = EE144D321BC7E683009B1E0C /* Reachability.m */; };
+		EE144D361BC7E68B009B1E0C /* sharedobject.m in Sources */ = {isa = PBXBuildFile; fileRef = EE144D351BC7E68B009B1E0C /* sharedobject.m */; };
+		EE144D391BC7E695009B1E0C /* TabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EE144D381BC7E695009B1E0C /* TabBarVC.m */; };
+		EE144D3D1BC7E6A1009B1E0C /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE144D3B1BC7E6A1009B1E0C /* CustomCell.m */; };
+		EE144D3E1BC7E6A1009B1E0C /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE144D3C1BC7E6A1009B1E0C /* CustomCell.xib */; };
+		EE144D461BC7E6AB009B1E0C /* Cocomat Light-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE144D3F1BC7E6AB009B1E0C /* Cocomat Light-trial.ttf */; };
+		EE144D471BC7E6AB009B1E0C /* Cocomat Ultralight-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE144D401BC7E6AB009B1E0C /* Cocomat Ultralight-trial.ttf */; };
+		EE144D481BC7E6AB009B1E0C /* Montserrat-Bold_gdi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE144D411BC7E6AB009B1E0C /* Montserrat-Bold_gdi.ttf */; };
+		EE144D491BC7E6AB009B1E0C /* Montserrat-Light_gdi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE144D421BC7E6AB009B1E0C /* Montserrat-Light_gdi.ttf */; };
+		EE144D4A1BC7E6AB009B1E0C /* Montserrat-Regular_gdi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE144D431BC7E6AB009B1E0C /* Montserrat-Regular_gdi.ttf */; };
+		EE144D4B1BC7E6AB009B1E0C /* Raleway-Regular_gdi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE144D441BC7E6AB009B1E0C /* Raleway-Regular_gdi.ttf */; };
+		EE144D4C1BC7E6AB009B1E0C /* Raleway-SemiBold_gdi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE144D451BC7E6AB009B1E0C /* Raleway-SemiBold_gdi.ttf */; };
+		EE144D581BC7E6C3009B1E0C /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = EE144D4D1BC7E6C3009B1E0C /* car.png */; };
+		EE144D591BC7E6C3009B1E0C /* carblue.png in Resources */ = {isa = PBXBuildFile; fileRef = EE144D4E1BC7E6C3009B1E0C /* carblue.png */; };
+		EE144D5A1BC7E6C3009B1E0C /* carwhite.png in Resources */ = {isa = PBXBuildFile; fileRef = EE144D4F1BC7E6C3009B1E0C /* carwhite.png */; };
+		EE144D5B1BC7E6C3009B1E0C /* heart_283.png in Resources */ = {isa = PBXBuildFile; fileRef = EE144D501BC7E6C3009B1E0C /* heart_283.png */; };
+		EE144D5C1BC7E6C3009B1E0C /* logout_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = EE144D511BC7E6C3009B1E0C /* logout_blue.png */; };
+		EE144D5D1BC7E6C3009B1E0C /* logoutwhite.png in Resources */ = {isa = PBXBuildFile; fileRef = EE144D521BC7E6C3009B1E0C /* logoutwhite.png */; };
+		EE144D5E1BC7E6C3009B1E0C /* profile_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = EE144D531BC7E6C3009B1E0C /* profile_blue.png */; };
+		EE144D5F1BC7E6C3009B1E0C /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = EE144D541BC7E6C3009B1E0C /* profile.png */; };
+		EE144D601BC7E6C3009B1E0C /* setting_72.png in Resources */ = {isa = PBXBuildFile; fileRef = EE144D551BC7E6C3009B1E0C /* setting_72.png */; };
+		EE144D611BC7E6C3009B1E0C /* steps_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = EE144D561BC7E6C3009B1E0C /* steps_blue.png */; };
+		EE144D621BC7E6C3009B1E0C /* steps.png in Resources */ = {isa = PBXBuildFile; fileRef = EE144D571BC7E6C3009B1E0C /* steps.png */; };
+		EE144D671BC7E6CF009B1E0C /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = EE144D641BC7E6CF009B1E0C /* Utilities.m */; };
+		EE144D681BC7E6CF009B1E0C /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = EE144D661BC7E6CF009B1E0C /* Utils.m */; };
+		EE144D6B1BC7E6ED009B1E0C /* LogoutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EE144D6A1BC7E6ED009B1E0C /* LogoutVC.m */; };
+		EE144D701BC7E6F6009B1E0C /* ProfileSettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EE144D6D1BC7E6F6009B1E0C /* ProfileSettingVC.m */; };
+		EE144D711BC7E6F6009B1E0C /* ProfileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EE144D6F1BC7E6F6009B1E0C /* ProfileVC.m */; };
+		EE144D741BC7E714009B1E0C /* StepsTabVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EE144D731BC7E714009B1E0C /* StepsTabVC.m */; };
+		EE144D791BC7E71C009B1E0C /* DrivingSettingsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EE144D761BC7E71C009B1E0C /* DrivingSettingsVC.m */; };
+		EE144D7A1BC7E71C009B1E0C /* DrivingTabVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EE144D781BC7E71C009B1E0C /* DrivingTabVC.m */; };
+		EE144D7D1BC7E724009B1E0C /* RegistrationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EE144D7C1BC7E724009B1E0C /* RegistrationVC.m */; };
+		EE144D821BC7E8EA009B1E0C /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EE144D811BC7E8EA009B1E0C /* libsqlite3.0.dylib */; };
+		EE144D841BC7E8F2009B1E0C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE144D831BC7E8F2009B1E0C /* MapKit.framework */; };
+		EE144D861BC7E8F9009B1E0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE144D851BC7E8F9009B1E0C /* Foundation.framework */; };
+		EE144D881BC7E900009B1E0C /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE144D871BC7E900009B1E0C /* CoreFoundation.framework */; };
+		EE144D8A1BC7E907009B1E0C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE144D891BC7E907009B1E0C /* UIKit.framework */; };
+		EE144D8C1BC7E90E009B1E0C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE144D8B1BC7E90E009B1E0C /* CoreGraphics.framework */; };
+		EE6169BE1BCCD2B300D40252 /* WMUser.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6169BD1BCCD2B300D40252 /* WMUser.m */; };
+		EE6169C11BCCD2C700D40252 /* WMDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6169C01BCCD2C700D40252 /* WMDataManager.m */; };
+		EEC69F801BC7ECE000DE4F8C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEC69F7F1BC7ECE000DE4F8C /* LaunchScreen.xib */; };
+		EEC69F841BC7ED6D00DE4F8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC69F831BC7ED6D00DE4F8C /* ViewController.m */; };
+		EEC69F861BC7F34900DE4F8C /* btn.png in Resources */ = {isa = PBXBuildFile; fileRef = EEC69F851BC7F34900DE4F8C /* btn.png */; };
+		EEC69F8C1BC7FC4000DE4F8C /* icons-76.png in Resources */ = {isa = PBXBuildFile; fileRef = EEC69F881BC7FC4000DE4F8C /* icons-76.png */; };
+		EEC69F8D1BC7FC4000DE4F8C /* icons-120.png in Resources */ = {isa = PBXBuildFile; fileRef = EEC69F891BC7FC4000DE4F8C /* icons-120.png */; };
+		EEC69F8E1BC7FC4000DE4F8C /* icons-152.png in Resources */ = {isa = PBXBuildFile; fileRef = EEC69F8A1BC7FC4000DE4F8C /* icons-152.png */; };
+		EEC69F8F1BC7FC4000DE4F8C /* icons-180.png in Resources */ = {isa = PBXBuildFile; fileRef = EEC69F8B1BC7FC4000DE4F8C /* icons-180.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE144CD71BC7D9EE009B1E0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE144CB51BC7D9EE009B1E0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE144CBC1BC7D9EE009B1E0C;
+			remoteInfo = WellMax;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43631E95237AA156F026CE4B /* libPods-WellMax.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WellMax.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		743294EE5CE7F91D309C6D5A /* Pods-WellMax.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WellMax.release.xcconfig"; path = "Pods/Target Support Files/Pods-WellMax/Pods-WellMax.release.xcconfig"; sourceTree = "<group>"; };
+		7827BF477F9C41B3684CE7A6 /* Pods-WellMax.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WellMax.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WellMax/Pods-WellMax.debug.xcconfig"; sourceTree = "<group>"; };
+		EE0ED8BC1BCE2707000AEC90 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EE0ED8BF1BCE2D6E000AEC90 /* MyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAnnotation.h; sourceTree = "<group>"; };
+		EE0ED8C01BCE2D6E000AEC90 /* MyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAnnotation.m; sourceTree = "<group>"; };
+		EE0ED8C31BCE4757000AEC90 /* FSVenue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSVenue.h; sourceTree = "<group>"; };
+		EE0ED8C41BCE4757000AEC90 /* FSVenue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSVenue.m; sourceTree = "<group>"; };
+		EE0ED8C61BCE5133000AEC90 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		EE0ED8C71BCE5133000AEC90 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		EE144CBD1BC7D9EE009B1E0C /* WellMax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WellMax.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE144CC11BC7D9EE009B1E0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE144CC21BC7D9EE009B1E0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE144CD61BC7D9EE009B1E0C /* WellMaxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WellMaxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE144CDB1BC7D9EE009B1E0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE144CDC1BC7D9EE009B1E0C /* WellMaxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WellMaxTests.m; sourceTree = "<group>"; };
+		EE144CE91BC7DBE9009B1E0C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE144CEA1BC7DBE9009B1E0C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE144CF01BC7DCB2009B1E0C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EE144CF31BC7DD4C009B1E0C /* ObjectClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ObjectClass.h; path = WellMax/WellMaxClasses/WMModal/ObjectClass.h; sourceTree = SOURCE_ROOT; };
+		EE144CF41BC7DD4C009B1E0C /* ObjectClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectClass.m; sourceTree = "<group>"; };
+		EE144CF61BC7DD5E009B1E0C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		EE144CF71BC7DD5E009B1E0C /* Main_i5.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_i5.storyboard; sourceTree = "<group>"; };
+		EE144CF81BC7DD5E009B1E0C /* Main_i6.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_i6.storyboard; sourceTree = "<group>"; };
+		EE144CF91BC7DD5E009B1E0C /* Main_i6P.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_i6P.storyboard; sourceTree = "<group>"; };
+		EE144CFA1BC7DD5E009B1E0C /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
+		EE144D2B1BC7E67B009B1E0C /* Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Database.h; sourceTree = "<group>"; };
+		EE144D2C1BC7E67B009B1E0C /* Database.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Database.m; sourceTree = "<group>"; };
+		EE144D2D1BC7E67B009B1E0C /* DBOperations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBOperations.h; sourceTree = "<group>"; };
+		EE144D2E1BC7E67B009B1E0C /* DBOperations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBOperations.m; sourceTree = "<group>"; };
+		EE144D311BC7E683009B1E0C /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		EE144D321BC7E683009B1E0C /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		EE144D341BC7E68B009B1E0C /* sharedobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sharedobject.h; sourceTree = "<group>"; };
+		EE144D351BC7E68B009B1E0C /* sharedobject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sharedobject.m; sourceTree = "<group>"; };
+		EE144D371BC7E695009B1E0C /* TabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarVC.h; sourceTree = "<group>"; };
+		EE144D381BC7E695009B1E0C /* TabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarVC.m; sourceTree = "<group>"; };
+		EE144D3A1BC7E6A1009B1E0C /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		EE144D3B1BC7E6A1009B1E0C /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		EE144D3C1BC7E6A1009B1E0C /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		EE144D3F1BC7E6AB009B1E0C /* Cocomat Light-trial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cocomat Light-trial.ttf"; sourceTree = "<group>"; };
+		EE144D401BC7E6AB009B1E0C /* Cocomat Ultralight-trial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cocomat Ultralight-trial.ttf"; sourceTree = "<group>"; };
+		EE144D411BC7E6AB009B1E0C /* Montserrat-Bold_gdi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold_gdi.ttf"; sourceTree = "<group>"; };
+		EE144D421BC7E6AB009B1E0C /* Montserrat-Light_gdi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light_gdi.ttf"; sourceTree = "<group>"; };
+		EE144D431BC7E6AB009B1E0C /* Montserrat-Regular_gdi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular_gdi.ttf"; sourceTree = "<group>"; };
+		EE144D441BC7E6AB009B1E0C /* Raleway-Regular_gdi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular_gdi.ttf"; sourceTree = "<group>"; };
+		EE144D451BC7E6AB009B1E0C /* Raleway-SemiBold_gdi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBold_gdi.ttf"; sourceTree = "<group>"; };
+		EE144D4D1BC7E6C3009B1E0C /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car.png; sourceTree = "<group>"; };
+		EE144D4E1BC7E6C3009B1E0C /* carblue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carblue.png; sourceTree = "<group>"; };
+		EE144D4F1BC7E6C3009B1E0C /* carwhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carwhite.png; sourceTree = "<group>"; };
+		EE144D501BC7E6C3009B1E0C /* heart_283.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart_283.png; sourceTree = "<group>"; };
+		EE144D511BC7E6C3009B1E0C /* logout_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logout_blue.png; sourceTree = "<group>"; };
+		EE144D521BC7E6C3009B1E0C /* logoutwhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoutwhite.png; sourceTree = "<group>"; };
+		EE144D531BC7E6C3009B1E0C /* profile_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile_blue.png; sourceTree = "<group>"; };
+		EE144D541BC7E6C3009B1E0C /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
+		EE144D551BC7E6C3009B1E0C /* setting_72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting_72.png; sourceTree = "<group>"; };
+		EE144D561BC7E6C3009B1E0C /* steps_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = steps_blue.png; sourceTree = "<group>"; };
+		EE144D571BC7E6C3009B1E0C /* steps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = steps.png; sourceTree = "<group>"; };
+		EE144D631BC7E6CF009B1E0C /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		EE144D641BC7E6CF009B1E0C /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		EE144D651BC7E6CF009B1E0C /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		EE144D661BC7E6CF009B1E0C /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		EE144D691BC7E6ED009B1E0C /* LogoutVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogoutVC.h; sourceTree = "<group>"; };
+		EE144D6A1BC7E6ED009B1E0C /* LogoutVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogoutVC.m; sourceTree = "<group>"; };
+		EE144D6C1BC7E6F6009B1E0C /* ProfileSettingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileSettingVC.h; sourceTree = "<group>"; };
+		EE144D6D1BC7E6F6009B1E0C /* ProfileSettingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileSettingVC.m; sourceTree = "<group>"; };
+		EE144D6E1BC7E6F6009B1E0C /* ProfileVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileVC.h; sourceTree = "<group>"; };
+		EE144D6F1BC7E6F6009B1E0C /* ProfileVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileVC.m; sourceTree = "<group>"; };
+		EE144D721BC7E714009B1E0C /* StepsTabVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepsTabVC.h; sourceTree = "<group>"; };
+		EE144D731BC7E714009B1E0C /* StepsTabVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepsTabVC.m; sourceTree = "<group>"; };
+		EE144D751BC7E71C009B1E0C /* DrivingSettingsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrivingSettingsVC.h; sourceTree = "<group>"; };
+		EE144D761BC7E71C009B1E0C /* DrivingSettingsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrivingSettingsVC.m; sourceTree = "<group>"; };
+		EE144D771BC7E71C009B1E0C /* DrivingTabVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrivingTabVC.h; sourceTree = "<group>"; };
+		EE144D781BC7E71C009B1E0C /* DrivingTabVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrivingTabVC.m; sourceTree = "<group>"; };
+		EE144D7B1BC7E724009B1E0C /* RegistrationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationVC.h; sourceTree = "<group>"; };
+		EE144D7C1BC7E724009B1E0C /* RegistrationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationVC.m; sourceTree = "<group>"; };
+		EE144D811BC7E8EA009B1E0C /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		EE144D831BC7E8F2009B1E0C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		EE144D851BC7E8F9009B1E0C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EE144D871BC7E900009B1E0C /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		EE144D891BC7E907009B1E0C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EE144D8B1BC7E90E009B1E0C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EE6169BC1BCCD2B300D40252 /* WMUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMUser.h; sourceTree = "<group>"; };
+		EE6169BD1BCCD2B300D40252 /* WMUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMUser.m; sourceTree = "<group>"; };
+		EE6169BF1BCCD2C700D40252 /* WMDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMDataManager.h; sourceTree = "<group>"; };
+		EE6169C01BCCD2C700D40252 /* WMDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMDataManager.m; sourceTree = "<group>"; };
+		EEC69F7F1BC7ECE000DE4F8C /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		EEC69F821BC7ED6D00DE4F8C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EEC69F831BC7ED6D00DE4F8C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EEC69F851BC7F34900DE4F8C /* btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn.png; sourceTree = "<group>"; };
+		EEC69F881BC7FC4000DE4F8C /* icons-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-76.png"; sourceTree = "<group>"; };
+		EEC69F891BC7FC4000DE4F8C /* icons-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-120.png"; sourceTree = "<group>"; };
+		EEC69F8A1BC7FC4000DE4F8C /* icons-152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-152.png"; sourceTree = "<group>"; };
+		EEC69F8B1BC7FC4000DE4F8C /* icons-180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-180.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE144CBA1BC7D9EE009B1E0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0ED8C81BCE5133000AEC90 /* AddressBook.framework in Frameworks */,
+				EE0ED8C91BCE5133000AEC90 /* AddressBookUI.framework in Frameworks */,
+				EE144D841BC7E8F2009B1E0C /* MapKit.framework in Frameworks */,
+				EE0ED8BD1BCE2707000AEC90 /* CoreLocation.framework in Frameworks */,
+				EE144D8C1BC7E90E009B1E0C /* CoreGraphics.framework in Frameworks */,
+				EE144D8A1BC7E907009B1E0C /* UIKit.framework in Frameworks */,
+				EE144D881BC7E900009B1E0C /* CoreFoundation.framework in Frameworks */,
+				EE144D861BC7E8F9009B1E0C /* Foundation.framework in Frameworks */,
+				EE144D821BC7E8EA009B1E0C /* libsqlite3.0.dylib in Frameworks */,
+				7155CB19039A3304D6B99310 /* libPods-WellMax.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE144CD31BC7D9EE009B1E0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D61F5EF7E1D552B33F5D9A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7827BF477F9C41B3684CE7A6 /* Pods-WellMax.debug.xcconfig */,
+				743294EE5CE7F91D309C6D5A /* Pods-WellMax.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		742B92BD26E86083305C8FD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE0ED8C61BCE5133000AEC90 /* AddressBook.framework */,
+				EE0ED8C71BCE5133000AEC90 /* AddressBookUI.framework */,
+				EE0ED8BC1BCE2707000AEC90 /* CoreLocation.framework */,
+				EE144D8B1BC7E90E009B1E0C /* CoreGraphics.framework */,
+				EE144D891BC7E907009B1E0C /* UIKit.framework */,
+				EE144D871BC7E900009B1E0C /* CoreFoundation.framework */,
+				EE144D851BC7E8F9009B1E0C /* Foundation.framework */,
+				EE144D831BC7E8F2009B1E0C /* MapKit.framework */,
+				EE144D811BC7E8EA009B1E0C /* libsqlite3.0.dylib */,
+				43631E95237AA156F026CE4B /* libPods-WellMax.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE0ED8BE1BCE2D18000AEC90 /* MyAnnotation */ = {
+			isa = PBXGroup;
+			children = (
+				EE0ED8BF1BCE2D6E000AEC90 /* MyAnnotation.h */,
+				EE0ED8C01BCE2D6E000AEC90 /* MyAnnotation.m */,
+			);
+			name = MyAnnotation;
+			path = WellMax/WellMaxClasses/WMController/WMDriving/MyAnnotation;
+			sourceTree = SOURCE_ROOT;
+		};
+		EE0ED8C21BCE4730000AEC90 /* WMAddress */ = {
+			isa = PBXGroup;
+			children = (
+				EE0ED8C31BCE4757000AEC90 /* FSVenue.h */,
+				EE0ED8C41BCE4757000AEC90 /* FSVenue.m */,
+			);
+			name = WMAddress;
+			path = WellMax/WellMaxClasses/WMController/WMDriving/addAnnotation;
+			sourceTree = SOURCE_ROOT;
+		};
+		EE144CB41BC7D9EE009B1E0C = {
+			isa = PBXGroup;
+			children = (
+				742B92BD26E86083305C8FD6 /* Frameworks */,
+				1D61F5EF7E1D552B33F5D9A7 /* Pods */,
+				EE144CBE1BC7D9EE009B1E0C /* Products */,
+				EE144CBF1BC7D9EE009B1E0C /* WellMax */,
+				EE144CD91BC7D9EE009B1E0C /* WellMaxTests */,
+			);
+			sourceTree = "<group>";
+		};
+		EE144CBE1BC7D9EE009B1E0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE144CBD1BC7D9EE009B1E0C /* WellMax.app */,
+				EE144CD61BC7D9EE009B1E0C /* WellMaxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE144CBF1BC7D9EE009B1E0C /* WellMax */ = {
+			isa = PBXGroup;
+			children = (
+				EE144D211BC7E23B009B1E0C /* WellMaxCustom */,
+				EE144CEF1BC7DC4B009B1E0C /* WMXCassets */,
+				EE144CE81BC7DB78009B1E0C /* WMConstants */,
+				EE144CE71BC7DB60009B1E0C /* WMAppDelegate */,
+				EE144CE61BC7DA6D009B1E0C /* WellMaxClasses */,
+				EE144CC01BC7D9EE009B1E0C /* Supporting Files */,
+			);
+			path = WellMax;
+			sourceTree = "<group>";
+		};
+		EE144CC01BC7D9EE009B1E0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE144CC11BC7D9EE009B1E0C /* Info.plist */,
+				EE144CC21BC7D9EE009B1E0C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE144CD91BC7D9EE009B1E0C /* WellMaxTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE144CDC1BC7D9EE009B1E0C /* WellMaxTests.m */,
+				EE144CDA1BC7D9EE009B1E0C /* Supporting Files */,
+			);
+			path = WellMaxTests;
+			sourceTree = "<group>";
+		};
+		EE144CDA1BC7D9EE009B1E0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE144CDB1BC7D9EE009B1E0C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE144CE61BC7DA6D009B1E0C /* WellMaxClasses */ = {
+			isa = PBXGroup;
+			children = (
+				EE144CEE1BC7DC1B009B1E0C /* WMController */,
+				EE144CED1BC7DC06009B1E0C /* WMView */,
+				EE144CEC1BC7DBF3009B1E0C /* WMModal */,
+			);
+			name = WellMaxClasses;
+			path = WellMax/WellMaxClasses;
+			sourceTree = SOURCE_ROOT;
+		};
+		EE144CE71BC7DB60009B1E0C /* WMAppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				EE144CE91BC7DBE9009B1E0C /* AppDelegate.h */,
+				EE144CEA1BC7DBE9009B1E0C /* AppDelegate.m */,
+			);
+			name = WMAppDelegate;
+			path = WellMax/WMAppDelegate;
+			sourceTree = SOURCE_ROOT;
+		};
+		EE144CE81BC7DB78009B1E0C /* WMConstants */ = {
+			isa = PBXGroup;
+			children = (
+				EE144D631BC7E6CF009B1E0C /* Utilities.h */,
+				EE144D641BC7E6CF009B1E0C /* Utilities.m */,
+				EE144D651BC7E6CF009B1E0C /* Utils.h */,
+				EE144D661BC7E6CF009B1E0C /* Utils.m */,
+			);
+			name = WMConstants;
+			path = WellMax/WMConstants;
+			sourceTree = SOURCE_ROOT;
+		};
+		EE144CEC1BC7DBF3009B1E0C /* WMModal */ = {
+			isa = PBXGroup;
+			children = (
+				EE6169BB1BCCD16A00D40252 /* WMUser */,
+				EE144CF31BC7DD4C009B1E0C /* ObjectClass.h */,
+				EE144CF41BC7DD4C009B1E0C /* ObjectClass.m */,
+			);
+			name = WMModal;
+			path = WellMax/WellMaxClasses/WMModal;
+			sourceTree = SOURCE_ROOT;
+		};
+		EE144CED1BC7DC06009B1E0C /* WMView */ = {
+			isa = PBXGroup;
+			children = (
+				EEC69F7F1BC7ECE000DE4F8C /* LaunchScreen.xib */,
+				EE144CF61BC7DD5E009B1E0C /* Main.storyboard */,
+				EE144CF71BC7DD5E009B1E0C /* Main_i5.storyboard */,
+				EE144CF81BC7DD5E009B1E0C /* Main_i6.storyboard */,
+				EE144CF91BC7DD5E009B1E0C /* Main_i6P.storyboard */,
+				EE144CFA1BC7DD5E009B1E0C /* Main_iPad.storyboard */,
+			);
+			name = WMView;
+			path = WellMax/WellMaxClasses/WMView;
+			sourceTree = SOURCE_ROOT;
+		};
+		EE144CEE1BC7DC1B009B1E0C /* WMController */ = {
+			isa = PBXGroup;
+			children = (
+				EEC69F811BC7ED4900DE4F8C /* WMLogin */,
+				EE144D251BC7E355009B1E0C /* WMLogOut */,
+				EE144D201BC7E0C6009B1E0C /* WMProfile */,
+				EE144D1F1BC7E0BF009B1E0C /* WMSteps */,
+				EE144D1E1BC7E09E009B1E0C /* WMDriving */,
+				EE144D1D1BC7E07B009B1E0C /* WMRegistration */,
+			);
+			name = WMController;
+			path = WellMax/WellMaxClasses/WMController;
+			sourceTree = SOURCE_ROOT;
+		};
+		EE144CEF1BC7DC4B009B1E0C /* WMXCassets */ = {
+			isa = PBXGroup;
+			children = (
+				EEC69F871BC7FBE000DE4F8C /* AppIcon */,
+				EE144D241BC7E2F7009B1E0C /* Images */,
+				EE144CF01BC7DCB2009B1E0C /* Images.xcassets */,
+			);
+			name = WMXCassets;
+			path = WellMax/WMXCassets;
+			sourceTree = SOURCE_ROOT;
+		};
+		EE144D1D1BC7E07B009B1E0C /* WMRegistration */ = {
+			isa = PBXGroup;
+			children = (
+				EE144D7B1BC7E724009B1E0C /* RegistrationVC.h */,
+				EE144D7C1BC7E724009B1E0C /* RegistrationVC.m */,
+			);
+			name = WMRegistration;
+			path = WellMax/WellMaxClasses/WMController/WMRegistration;
+			sourceTree = SOURCE_ROOT;
+		};
+		EE144D1E1BC7E09E009B1E0C /* WMDriving */ = {
+			isa = PBXGroup;
+			children = (
+				EE0ED8C21BCE4730000AEC90 /* WMAddress */,
+				EE0ED8BE1BCE2D18000AEC90 /* MyAnnotation */,
+				EE144D751BC7E71C009B1E0C /* DrivingSettingsVC.h */,
+				EE144D761BC7E71C009B1E0C /* DrivingSettingsVC.m */,
+				EE144D771BC7E71C009B1E0C /* DrivingTabVC.h */,
+				EE144D781BC7E71C009B1E0C /* DrivingTabVC.m */,
+			);
+			name = WMDriving;
+			path = WellMax/WellMaxClasses/WMController/WMDriving;
+			sourceTree = SOURCE_ROOT;
+		};
+		EE144D1F1BC7E0BF009B1E0C /* WMSteps */ = {
+			isa = PBXGroup;
+			children = (
+				EE144D721BC7E714009B1E0C /* StepsTabVC.h */,
+				EE144D731BC7E714009B1E0C /* StepsTabVC.m */,
+			);
+			name = WMSteps;
+			path = WellMax/WellMaxClasses/WMController/WMSteps;
+			sourceTree = SOURCE_ROOT;
+		};
+		EE144D201BC7E0C6009B1E0C /* WMProfile */ = {
+			isa = PBXGroup;
+			children = (
+				EE144D6C1BC7E6F6009B1E0C /* ProfileSettingVC.h */,
+				EE144D6D1BC7E6F6009B1E0C /* ProfileSettingVC.m */,
+				EE144D6E1BC7E6F6009B1E0C /* ProfileVC.h */,
+				EE144D6F1BC7E6F6009B1E0C /* ProfileVC.m */,
+			);
+			name = WMProfile;
+			path = WellMax/WellMaxClasses/WMController/WMProfile;
+			sourceTree = SOURCE_ROOT;
+		};
+		EE144D211BC7E23B009B1E0C /* WellMaxCustom */ = {
+			isa = PBXGroup;
+			children = (
+				EE7B09BC1BCB929A0059214B /* WMDropDown */,
+				EE144D2A1BC7E559009B1E0C /* WMDatabase */,
+				EE144D291BC7E4A6009B1E0C /* WMReachability */,
+				EE144D281BC7E48B009B1E0C /* WMSharing */,
+				EE144D261BC7E3BE009B1E0C /* WMTabBar */,
+				EE144D231BC7E29C009B1E0C /* Classes */,
+				EE144D221BC7E27F009B1E0C /* Fonts */,
+			);
+			name = WellMaxCustom;
+			path = WellMax/WellMaxCustom;
+			sourceTree = SOURCE_ROOT;
+		};
+		EE144D221BC7E27F009B1E0C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EE144D3F1BC7E6AB009B1E0C /* Cocomat Light-trial.ttf */,
+				EE144D401BC7E6AB009B1E0C /* Cocomat Ultralight-trial.ttf */,
+				EE144D411BC7E6AB009B1E0C /* Montserrat-Bold_gdi.ttf */,
+				EE144D421BC7E6AB009B1E0C /* Montserrat-Light_gdi.ttf */,
+				EE144D431BC7E6AB009B1E0C /* Montserrat-Regular_gdi.ttf */,
+				EE144D441BC7E6AB009B1E0C /* Raleway-Regular_gdi.ttf */,
+				EE144D451BC7E6AB009B1E0C /* Raleway-SemiBold_gdi.ttf */,
+			);
+			name = Fonts;
+			path = WellMax/WellMaxCustom/Fonts;
+			sourceTree = SOURCE_ROOT;
+		};
+		EE144D231BC7E29C009B1E0C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EE144D3A1BC7E6A1009B1E0C /* CustomCell.h */,
+				EE144D3B1BC7E6A1009B1E0C /* CustomCell.m */,
+				EE144D3C1BC7E6A1009B1E0C /* CustomCell.xib */,
+			);
+			name = Classes;
+			path = WellMax/WellMaxCustom/Classes;
+			sourceTree = SOURCE_ROOT;
+		};
+		EE144D241BC7E2F7009B1E0C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EEC69F851BC7F34900DE4F8C /* btn.png */,
+				EE144D4D1BC7E6C3009B1E0C /* car.png */,
+				EE144D4E1BC7E6C3009B1E0C /* carblue.png */,
+				EE144D4F1BC7E6C3009B1E0C /* carwhite.png */,
+				EE144D501BC7E6C3009B1E0C /* heart_283.png */,
+				EE144D511BC7E6C3009B1E0C /* logout_blue.png */,
+				EE144D521BC7E6C3009B1E0C /* logoutwhite.png */,
+				EE144D531BC7E6C3009B1E0C /* profile_blue.png */,
+				EE144D541BC7E6C3009B1E0C /* profile.png */,
+				EE144D551BC7E6C3009B1E0C /* setting_72.png */,
+				EE144D561BC7E6C3009B1E0C /* steps_blue.png */,
+				EE144D571BC7E6C3009B1E0C /* steps.png */,
+			);
+			name = Images;
+			path = WellMax/WMXCassets/Images;
+			sourceTree = SOURCE_ROOT;
+		};
+		EE144D251BC7E355009B1E0C /* WMLogOut */ = {
+			isa = PBXGroup;
+			children = (
+				EE144D691BC7E6ED009B1E0C /* LogoutVC.h */,
+				EE144D6A1BC7E6ED009B1E0C /* LogoutVC.m */,
+			);
+			name = WMLogOut;
+			path = WellMax/WellMaxClasses/WMController/WMLogOut;
+			sourceTree = SOURCE_ROOT;
+		};
+		EE144D261BC7E3BE009B1E0C /* WMTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				EE144D371BC7E695009B1E0C /* TabBarVC.h */,
+				EE144D381BC7E695009B1E0C /* TabBarVC.m */,
+			);
+			name = WMTabBar;
+			path = WellMax/WellMaxCustom/WMTabBar;
+			sourceTree = SOURCE_ROOT;
+		};
+		EE144D281BC7E48B009B1E0C /* WMSharing */ = {
+			isa = PBXGroup;
+			children = (
+				EE144D341BC7E68B009B1E0C /* sharedobject.h */,
+				EE144D351BC7E68B009B1E0C /* sharedobject.m */,
+			);
+			name = WMSharing;
+			path = WellMax/WellMaxCustom/WMSharing;
+			sourceTree = SOURCE_ROOT;
+		};
+		EE144D291BC7E4A6009B1E0C /* WMReachability */ = {
+			isa = PBXGroup;
+			children = (
+				EE144D311BC7E683009B1E0C /* Reachability.h */,
+				EE144D321BC7E683009B1E0C /* Reachability.m */,
+			);
+			name = WMReachability;
+			path = WellMax/WellMaxCustom/WMReachability;
+			sourceTree = SOURCE_ROOT;
+		};
+		EE144D2A1BC7E559009B1E0C /* WMDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				EE144D2B1BC7E67B009B1E0C /* Database.h */,
+				EE144D2C1BC7E67B009B1E0C /* Database.m */,
+				EE144D2D1BC7E67B009B1E0C /* DBOperations.h */,
+				EE144D2E1BC7E67B009B1E0C /* DBOperations.m */,
+			);
+			name = WMDatabase;
+			path = WellMax/WellMaxCustom/WMDatabase;
+			sourceTree = SOURCE_ROOT;
+		};
+		EE6169BB1BCCD16A00D40252 /* WMUser */ = {
+			isa = PBXGroup;
+			children = (
+				EE6169BC1BCCD2B300D40252 /* WMUser.h */,
+				EE6169BD1BCCD2B300D40252 /* WMUser.m */,
+				EE6169BF1BCCD2C700D40252 /* WMDataManager.h */,
+				EE6169C01BCCD2C700D40252 /* WMDataManager.m */,
+			);
+			name = WMUser;
+			path = WellMax/WellMaxClasses/WMModal/WMUser;
+			sourceTree = SOURCE_ROOT;
+		};
+		EE7B09BC1BCB929A0059214B /* WMDropDown */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = WMDropDown;
+			path = WellMax/WellMaxCustom/WMDropDown;
+			sourceTree = SOURCE_ROOT;
+		};
+		EEC69F811BC7ED4900DE4F8C /* WMLogin */ = {
+			isa = PBXGroup;
+			children = (
+				EEC69F821BC7ED6D00DE4F8C /* ViewController.h */,
+				EEC69F831BC7ED6D00DE4F8C /* ViewController.m */,
+			);
+			name = WMLogin;
+			path = WellMax/WellMaxClasses/WMController/WMLogin;
+			sourceTree = SOURCE_ROOT;
+		};
+		EEC69F871BC7FBE000DE4F8C /* AppIcon */ = {
+			isa = PBXGroup;
+			children = (
+				EEC69F881BC7FC4000DE4F8C /* icons-76.png */,
+				EEC69F891BC7FC4000DE4F8C /* icons-120.png */,
+				EEC69F8A1BC7FC4000DE4F8C /* icons-152.png */,
+				EEC69F8B1BC7FC4000DE4F8C /* icons-180.png */,
+			);
+			name = AppIcon;
+			path = WellMax/WMXCassets/AppIcon;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE144CBC1BC7D9EE009B1E0C /* WellMax */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE144CE01BC7D9EE009B1E0C /* Build configuration list for PBXNativeTarget "WellMax" */;
+			buildPhases = (
+				30FB81010B3BC7FECF503103 /* Check Pods Manifest.lock */,
+				EE144CB91BC7D9EE009B1E0C /* Sources */,
+				EE144CBA1BC7D9EE009B1E0C /* Frameworks */,
+				EE144CBB1BC7D9EE009B1E0C /* Resources */,
+				F4297928C211924E9DD027DD /* Copy Pods Resources */,
+				237980C32957186B7DD4AB40 /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WellMax;
+			productName = WellMax;
+			productReference = EE144CBD1BC7D9EE009B1E0C /* WellMax.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE144CD51BC7D9EE009B1E0C /* WellMaxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE144CE31BC7D9EE009B1E0C /* Build configuration list for PBXNativeTarget "WellMaxTests" */;
+			buildPhases = (
+				EE144CD21BC7D9EE009B1E0C /* Sources */,
+				EE144CD31BC7D9EE009B1E0C /* Frameworks */,
+				EE144CD41BC7D9EE009B1E0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE144CD81BC7D9EE009B1E0C /* PBXTargetDependency */,
+			);
+			name = WellMaxTests;
+			productName = WellMaxTests;
+			productReference = EE144CD61BC7D9EE009B1E0C /* WellMaxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE144CB51BC7D9EE009B1E0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = EVS;
+				TargetAttributes = {
+					EE144CBC1BC7D9EE009B1E0C = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = NHVZESNL9B;
+					};
+					EE144CD51BC7D9EE009B1E0C = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = EE144CBC1BC7D9EE009B1E0C;
+					};
+				};
+			};
+			buildConfigurationList = EE144CB81BC7D9EE009B1E0C /* Build configuration list for PBXProject "WellMax" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE144CB41BC7D9EE009B1E0C;
+			productRefGroup = EE144CBE1BC7D9EE009B1E0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE144CBC1BC7D9EE009B1E0C /* WellMax */,
+				EE144CD51BC7D9EE009B1E0C /* WellMaxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE144CBB1BC7D9EE009B1E0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE144D5B1BC7E6C3009B1E0C /* heart_283.png in Resources */,
+				EE144D5E1BC7E6C3009B1E0C /* profile_blue.png in Resources */,
+				EE144D581BC7E6C3009B1E0C /* car.png in Resources */,
+				EEC69F8E1BC7FC4000DE4F8C /* icons-152.png in Resources */,
+				EE144D621BC7E6C3009B1E0C /* steps.png in Resources */,
+				EE144CFB1BC7DD5E009B1E0C /* Main.storyboard in Resources */,
+				EE144D5C1BC7E6C3009B1E0C /* logout_blue.png in Resources */,
+				EE144D591BC7E6C3009B1E0C /* carblue.png in Resources */,
+				EE144D471BC7E6AB009B1E0C /* Cocomat Ultralight-trial.ttf in Resources */,
+				EE144D4A1BC7E6AB009B1E0C /* Montserrat-Regular_gdi.ttf in Resources */,
+				EE144CFD1BC7DD5E009B1E0C /* Main_i6.storyboard in Resources */,
+				EE144D3E1BC7E6A1009B1E0C /* CustomCell.xib in Resources */,
+				EE144D481BC7E6AB009B1E0C /* Montserrat-Bold_gdi.ttf in Resources */,
+				EE144D5A1BC7E6C3009B1E0C /* carwhite.png in Resources */,
+				EE144D461BC7E6AB009B1E0C /* Cocomat Light-trial.ttf in Resources */,
+				EE144D611BC7E6C3009B1E0C /* steps_blue.png in Resources */,
+				EE144D5D1BC7E6C3009B1E0C /* logoutwhite.png in Resources */,
+				EE144D4B1BC7E6AB009B1E0C /* Raleway-Regular_gdi.ttf in Resources */,
+				EEC69F8C1BC7FC4000DE4F8C /* icons-76.png in Resources */,
+				EEC69F8D1BC7FC4000DE4F8C /* icons-120.png in Resources */,
+				EE144D491BC7E6AB009B1E0C /* Montserrat-Light_gdi.ttf in Resources */,
+				EE144D4C1BC7E6AB009B1E0C /* Raleway-SemiBold_gdi.ttf in Resources */,
+				EE144CFE1BC7DD5E009B1E0C /* Main_i6P.storyboard in Resources */,
+				EE144D5F1BC7E6C3009B1E0C /* profile.png in Resources */,
+				EEC69F861BC7F34900DE4F8C /* btn.png in Resources */,
+				EE144CF11BC7DCB2009B1E0C /* Images.xcassets in Resources */,
+				EEC69F801BC7ECE000DE4F8C /* LaunchScreen.xib in Resources */,
+				EE144CFF1BC7DD5E009B1E0C /* Main_iPad.storyboard in Resources */,
+				EE144CFC1BC7DD5E009B1E0C /* Main_i5.storyboard in Resources */,
+				EE144D601BC7E6C3009B1E0C /* setting_72.png in Resources */,
+				EEC69F8F1BC7FC4000DE4F8C /* icons-180.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE144CD41BC7D9EE009B1E0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		237980C32957186B7DD4AB40 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WellMax/Pods-WellMax-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30FB81010B3BC7FECF503103 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F4297928C211924E9DD027DD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WellMax/Pods-WellMax-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE144CB91BC7D9EE009B1E0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE144D711BC7E6F6009B1E0C /* ProfileVC.m in Sources */,
+				EE0ED8C51BCE4757000AEC90 /* FSVenue.m in Sources */,
+				EE144D6B1BC7E6ED009B1E0C /* LogoutVC.m in Sources */,
+				EE144D301BC7E67B009B1E0C /* DBOperations.m in Sources */,
+				EE144D701BC7E6F6009B1E0C /* ProfileSettingVC.m in Sources */,
+				EE144D681BC7E6CF009B1E0C /* Utils.m in Sources */,
+				EE144D741BC7E714009B1E0C /* StepsTabVC.m in Sources */,
+				EE144CC31BC7D9EE009B1E0C /* main.m in Sources */,
+				EE144D391BC7E695009B1E0C /* TabBarVC.m in Sources */,
+				EEC69F841BC7ED6D00DE4F8C /* ViewController.m in Sources */,
+				EE144CF51BC7DD4C009B1E0C /* ObjectClass.m in Sources */,
+				EE0ED8C11BCE2D6E000AEC90 /* MyAnnotation.m in Sources */,
+				EE6169C11BCCD2C700D40252 /* WMDataManager.m in Sources */,
+				EE144D7D1BC7E724009B1E0C /* RegistrationVC.m in Sources */,
+				EE144D671BC7E6CF009B1E0C /* Utilities.m in Sources */,
+				EE144D2F1BC7E67B009B1E0C /* Database.m in Sources */,
+				EE144D791BC7E71C009B1E0C /* DrivingSettingsVC.m in Sources */,
+				EE6169BE1BCCD2B300D40252 /* WMUser.m in Sources */,
+				EE144D331BC7E683009B1E0C /* Reachability.m in Sources */,
+				EE144D7A1BC7E71C009B1E0C /* DrivingTabVC.m in Sources */,
+				EE144CEB1BC7DBE9009B1E0C /* AppDelegate.m in Sources */,
+				EE144D361BC7E68B009B1E0C /* sharedobject.m in Sources */,
+				EE144D3D1BC7E6A1009B1E0C /* CustomCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE144CD21BC7D9EE009B1E0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE144CDD1BC7D9EE009B1E0C /* WellMaxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE144CD81BC7D9EE009B1E0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE144CBC1BC7D9EE009B1E0C /* WellMax */;
+			targetProxy = EE144CD71BC7D9EE009B1E0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EE144CDE1BC7D9EE009B1E0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Deepak Kumar (9L3GPKE23Y)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Deepak Kumar (9L3GPKE23Y)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "f3a265af-d6ce-43b6-ad3b-55e12eb289da";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE144CDF1BC7D9EE009B1E0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Deepak Kumar (9L3GPKE23Y)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Deepak Kumar (9L3GPKE23Y)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "f3a265af-d6ce-43b6-ad3b-55e12eb289da";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE144CE11BC7D9EE009B1E0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7827BF477F9C41B3684CE7A6 /* Pods-WellMax.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Deepak Kumar (9L3GPKE23Y)";
+				INFOPLIST_FILE = WellMax/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f3a265af-d6ce-43b6-ad3b-55e12eb289da";
+			};
+			name = Debug;
+		};
+		EE144CE21BC7D9EE009B1E0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 743294EE5CE7F91D309C6D5A /* Pods-WellMax.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Deepak Kumar (9L3GPKE23Y)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Deepak Kumar (9L3GPKE23Y)";
+				INFOPLIST_FILE = WellMax/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f3a265af-d6ce-43b6-ad3b-55e12eb289da";
+			};
+			name = Release;
+		};
+		EE144CE41BC7D9EE009B1E0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WellMaxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WellMax.app/WellMax";
+			};
+			name = Debug;
+		};
+		EE144CE51BC7D9EE009B1E0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WellMaxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WellMax.app/WellMax";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE144CB81BC7D9EE009B1E0C /* Build configuration list for PBXProject "WellMax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE144CDE1BC7D9EE009B1E0C /* Debug */,
+				EE144CDF1BC7D9EE009B1E0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE144CE01BC7D9EE009B1E0C /* Build configuration list for PBXNativeTarget "WellMax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE144CE11BC7D9EE009B1E0C /* Debug */,
+				EE144CE21BC7D9EE009B1E0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE144CE31BC7D9EE009B1E0C /* Build configuration list for PBXNativeTarget "WellMaxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE144CE41BC7D9EE009B1E0C /* Debug */,
+				EE144CE51BC7D9EE009B1E0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE144CB51BC7D9EE009B1E0C /* Project object */;
+}
